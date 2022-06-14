@@ -6,22 +6,26 @@
 body   
         { background-image: linear-gradient(#8F7260,#B8A692,#B6AFA7);
 
-        font-family: 'Poppins' 'sans-serif';
+                font-family: 'Great Vibes', cursive;
+                font-family: 'Poppins', sans-serif;
         font-size:20px;} 
 
         header {
                 background-color:white;
+                border-radius: 10px;
+                box-shadow: 5px 5px 15px #b18556;
                 width: auto;
                 margin: 20px;
 
         }
-        main {
+        main > p {
+                text-align: center;
                 background-color: white;
                 border-radius: 10px;
                 box-shadow: 5px 5px 15px #b18556;
                 width: auto;
                 padding: 10px;
-                margin: auto;
+                margin: 40px;
             }
 
             div {
@@ -30,7 +34,7 @@ body
                 box-shadow: 5px 5px 15px #b18556;
                 width: auto;
                 padding: 5px;
-                margin: 20px; ;
+                margin: auto ;
             }
 
             span {
@@ -47,11 +51,11 @@ h1
 
 p{color: black;}
 
-footer {
+footer { text-align: center;
         background-color: white;
                 border-radius: 10px;
                 box-shadow: 5px 5px 15px #b18556;
                 width: 1216px;
                 padding: 10px;
-                margin: 20px;
+                margin: auto;
 }
