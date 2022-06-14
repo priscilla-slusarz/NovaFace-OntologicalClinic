@@ -1,7 +1,57 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
-body { background-color: #EDE5DA; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300&display=swap');
 
-h1 {color: blanchedalmond;}
 
-p{color: #ffc0cb;}
+body   
+        { background-image: linear-gradient(#8F7260,#B8A692,#B6AFA7);
+
+        font-family: 'Poppins' 'sans-serif';
+        font-size:20px;} 
+
+        header {
+                background-color:white;
+                width: auto;
+                margin: 20px;
+
+        }
+        main {
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 5px 5px 15px #b18556;
+                width: auto;
+                padding: 10px;
+                margin: auto;
+            }
+
+            div {
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 5px 5px 15px #b18556;
+                width: auto;
+                padding: 5px;
+                margin: 20px; ;
+            }
+
+            span {
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 5px 5px 15px #b18556;
+                width: auto;
+                padding: 5px;
+                margin: 20px ;
+            }
+            
+h1
+{color: #A88E6F;}
+
+p{color: black;}
+
+footer {
+        background-color: white;
+                border-radius: 10px;
+                box-shadow: 5px 5px 15px #b18556;
+                width: 1216px;
+                padding: 10px;
+                margin: 20px;
+}
