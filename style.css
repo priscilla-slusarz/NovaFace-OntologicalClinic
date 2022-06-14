@@ -24,16 +24,17 @@ body
                 border-radius: 10px;
                 box-shadow: 5px 5px 15px #b18556;
                 width: auto;
-                padding: 10px;
-                margin: 40px;
+                padding: 15px;
+                margin: 15px;
             }
 
             div {
+                    text-align: center;
                 background-color: white;
                 border-radius: 10px;
                 box-shadow: 5px 5px 15px #b18556;
-                width: auto;
-                padding: 5px;
+                width: 1017px;
+                padding: 10px 10px 5px 10px;
                 margin: auto ;
             }
 
@@ -51,11 +52,12 @@ h1
 
 p{color: black;}
 
-footer { text-align: center;
+footer { text-decoration: none; 
+        text-align: center;
         background-color: white;
-                border-radius: 10px;
-                box-shadow: 5px 5px 15px #b18556;
-                width: 1216px;
-                padding: 10px;
-                margin: auto;
+         border-radius: 10px;
+        box-shadow: 5px 5px 15px #b18556;
+        width: 1017px;
+        padding: 10px;
+        margin: auto;
 }
