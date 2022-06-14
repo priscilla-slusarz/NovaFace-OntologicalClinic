@@ -5,59 +5,70 @@
 
 body   
         { background-image: linear-gradient(#8F7260,#B8A692,#B6AFA7);
-
-                font-family: 'Great Vibes', cursive;
-                font-family: 'Poppins', sans-serif;
-        font-size:20px;} 
-
-        header {
-                background-color:white;
-                border-radius: 10px;
-                box-shadow: 5px 5px 15px #b18556;
-                width: auto;
-                margin: 20px;
-
-        }
-        main > p {
-                text-align: center;
-                background-color: white;
-                border-radius: 10px;
-                box-shadow: 5px 5px 15px #b18556;
-                width: auto;
-                padding: 15px;
-                margin: 15px;
-            }
-
-            div {
-                    text-align: center;
-                background-color: white;
-                border-radius: 10px;
-                box-shadow: 5px 5px 15px #b18556;
-                width: 1017px;
-                padding: 10px 10px 5px 10px;
-                margin: auto ;
-            }
-
-            span {
-                background-color: white;
-                border-radius: 10px;
-                box-shadow: 5px 5px 15px #b18556;
-                width: auto;
-                padding: 5px;
-                margin: 20px ;
-            }
-            
+          font-family: 'Great Vibes', cursive;
+          font-family: 'Poppins', sans-serif;
+          font-size:20px
+                
+        } 
+        
 h1
-{color: #A88E6F;}
+        {
+          color: #A88E6F;
+        }
 
-p{color: black;}
+p       
+        {
+          color: black;
+        }
 
-footer { text-decoration: none; 
-        text-align: center;
-        background-color: white;
-         border-radius: 10px;
-        box-shadow: 5px 5px 15px #b18556;
-        width: 1017px;
-        padding: 10px;
-        margin: auto;
-}
+
+header
+        {
+          text-align: center;
+          background-color:white;
+          border-radius: 10px;
+          box-shadow: 5px 5px 15px #b18556;
+          width: auto;
+        }
+
+main > p 
+        {
+          text-align: center;
+          background-color: white;
+          border-radius: 10px;
+          box-shadow: 5px 5px 15px #b18556;
+          width: auto;
+          padding: 15px;
+          margin: 15px;
+        }
+
+span    {
+          background-color: white;
+          border-radius: 10px;
+          box-shadow: 5px 5px 15px #b18556;
+          width: auto;
+          padding: 5px;
+          margin: 20px ;
+        }
+
+div     {
+          text-align: center;
+          background-color: white;
+          border-radius: 10px;
+          box-shadow: 5px 5px 15px #b18556;
+          width: 1250;
+          padding: 10px 10px 5px 10px;
+          margin: 20px ;
+        }
+            
+footer 
+        {  
+          text-align: center;
+          text-decoration: none;
+          background-color: white;
+          border-radius: 10px;
+          box-shadow: 5px 5px 15px #b18556;
+          width: 640px;
+          padding: 1px;
+          margin: auto;
+        }
