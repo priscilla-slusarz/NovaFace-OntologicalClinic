@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Artegra Soft';
+    src: local('Artegra Soft Thin'), local('Artegra-Soft-Thin'),
+        url('ArtegraSoft-Thin.woff2') format('woff2'),
+        url('ArtegraSoft-Thin.woff') format('woff'),
+        url('ArtegraSoft-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }

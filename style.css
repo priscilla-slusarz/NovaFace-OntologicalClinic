@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300&family=Tiro+Devanagari+Hindi&display=swap');
 
 
 body   
@@ -23,7 +24,7 @@ p
 
 
 header
-        {
+        { font-family: font-family: 'Tiro Devanagari Hindi', serif;
           text-align: center;
           background-color:white;
           border-radius: 10px;
@@ -31,18 +32,32 @@ header
           width: auto;
         }
 
-main > p 
+#menu {
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #b18556;
+        width: 1250px;
+        height: auto;
+        padding: 20px;
+        margin: auto;
+      
+}
+
+.definicao
         {
-          text-align: center;
+          text-align: justify;
           background-color: white;
           border-radius: 10px;
           box-shadow: 5px 5px 15px #b18556;
-          width: auto;
+          width: 600px;
           padding: 15px;
           margin: 15px;
         }
+.definicao {display: none;}
+.definicao:hover {display: block;}
 
-span    {
+span    { 
           background-color: white;
           border-radius: 10px;
           box-shadow: 5px 5px 15px #b18556;
@@ -61,10 +76,8 @@ div     {
           margin: 20px ;
         }
             
-footer 
-        {  
+footer  {
           text-align: center;
-          text-decoration: none;
           background-color: white;
           border-radius: 10px;
           box-shadow: 5px 5px 15px #b18556;
@@ -72,3 +85,25 @@ footer
           padding: 1px;
           margin: auto;
         }
+
+a       { 
+          text-decoration: none; 
+        }
+
+a:link  { 
+          color: rgb(0, 0, 0)
+        } 
+
+a:visited{
+          color: rgb(211, 61, 248) 
+        } 
+
+a:hover { text-decoration: underline;
+          font-weight: bold; 
+        } 
+
+        .oculto {
+                color: #b18556;
+                text-align: justify;
+                height: 50px;
+                weight: 50px}
