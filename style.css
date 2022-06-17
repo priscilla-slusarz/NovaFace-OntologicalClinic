@@ -9,6 +9,7 @@ body
           font-family: 'Great Vibes', cursive;
           font-family: 'Poppins', sans-serif;
           font-size:20px
+          
                 
         } 
         
@@ -54,7 +55,9 @@ header
           padding: 15px;
           margin: 15px;
         }
+
 .definicao {display: none;}
+span > p { display: block;}
 .definicao:hover {display: block;}
 
 span    { 
